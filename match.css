@@ -1,0 +1,24 @@
+.match{
+background-image:url("https://www.manutd.com/AssetPicker/images/0/0/13/153/891376/GettyImages-8354465281579272249564_xlarge.jpg");
+background-size: cover;
+height: 574px;
+
+
+}
+.match .light{
+    height: 100%;
+	background: rgba(26,26,26,.65);
+	display: flex;
+
+
+}
+.match .light figure{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+.match .light img{
+	height: 65px;
+	width: 184px;
+
+}

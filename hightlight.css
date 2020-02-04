@@ -1,0 +1,31 @@
+.hight{
+background-image: url("https://www.manutd.com/AssetPicker/images/0/0/13/109/880011/IMG_9605_2020011141220287_202001110418331578767684206_xlarge.jpg");
+background-size: cover;
+
+height: 600px;
+font-family: 'BebasNeueBold';
+margin-bottom: 20px;
+
+}
+.hight .big h1{
+  color: white;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  font-size: 80px;
+ 
+
+}
+.hight .big{
+	display: flex;
+align-items: flex-end;
+height: 100%;
+    background: linear-gradient(185deg,rgba(0,0,0,0) 20%,rgba(0,0,0,.9) 80%);
+
+}
+.hight .big span{
+  color: white;
+  display: block;
+  width: 100%;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}

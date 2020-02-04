@@ -1,0 +1,146 @@
+html{
+	font-family: 'Montserrat', sans-serif;
+
+}
+body{
+	margin: 0px;
+}
+.menu-tab{
+	height: 80px;
+	background: #c70101;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.4);
+    display: flex;
+    position: relative;
+   
+}
+.menu-tab .logo img{
+	
+	height: 60px ;
+	margin: 10px 15px;
+}
+.menu-tab .menu{
+	display: flex;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+    flex-grow: 1;
+    
+}
+.menu-tab .menu .first-tab{
+
+    
+    font-size: 15px;
+	
+	line-height: 80px;
+	padding: 0px 5px;
+	
+	}
+.menu-tab .menu .first-tab .link{
+	text-decoration: none;
+	color: white;
+    display: inline-block;
+}
+
+.menu-tab .menu .first-tab:hover{
+ border-bottom: 5px solid white;
+ }
+.menu-tab .social{
+	display: flex;
+	flex-grow: 1;
+	justify-content: flex-end;
+	margin-right: 10px;
+}
+.menu-tab .social i p{
+	display: inline-block;
+	margin: 30px 10px 0px 0px;
+	color: white;
+}
+.menu-tab .social i{
+	color: white;
+}
+.menu-tab .social i:hover {
+border-bottom: 5px solid white; 
+}
+
+.menu-tab .social .dev{
+	font-size: 10px;
+	color:white;
+	text-decoration: none;
+    margin-top: 25px;
+	height: 30px;
+	background: #000;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+   padding: 0px 5px;
+
+
+}
+
+
+.menu-tab .menu .first-tab .second-tab{
+font-family: 'Source Sans Pro', sans-serif;
+display: flex;
+top : 100%;
+width : 100%;
+left: 0;
+
+margin: 40px 0px 0px 0px;
+}
+.menu-tab .menu .first-tab:hover .inside{
+display: block;
+
+}
+
+.menu-tab .menu .first-tab .second-tab ul li{
+   list-style: none;
+   height: 30px;
+   line-height: 30px;
+   
+   border-bottom: 1px solid #F2F2F2;
+}
+.menu-tab .menu .first-tab .second-tab ul li a{
+  color: #1a1a1a ;
+  text-decoration: none;
+
+  }
+
+
+.menu-tab .menu .first-tab .second-tab ul li:hover{
+  background: #FAFAFA;
+ }
+
+.menu-tab .menu .first-tab .second-tab ul{
+  padding: 0px;
+  flex-grow: 1;
+}
+.menu-tab .menu .first-tab .second-tab .multi-tab{
+	display: flex;
+    flex-grow: 1;
+}
+.menu-tab .menu .first-tab .second-tab .social img{
+height: 50px;
+
+}
+.menu-tab .menu .first-tab .second-tab .social{
+	flex-grow: 1;
+	
+}
+.menu-tab .menu .first-tab .second-tab .another{
+   color : black;
+   font-size: 10px;
+}
+.menu-tab .menu .first-tab .inside{
+ position: absolute;
+ left: 0;
+ right: 0;
+ top : 100%;
+ display: none;
+ padding: 0px 150px;
+ background: white;
+}
+.menu-tab .menu .first-tab .inside .videos img{
+   height: 200px;
+   margin-right: 15px;
+}

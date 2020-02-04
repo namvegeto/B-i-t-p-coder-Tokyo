@@ -1,0 +1,11 @@
+.donor{
+	background-color: #1a1a1a;
+	height: 45px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.donor img{
+	height: 24px;
+	margin: 5px 11px;
+}
